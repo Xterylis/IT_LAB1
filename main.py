@@ -23,7 +23,7 @@ def half_method(a, b, epsilon):
 
 a = -3
 b = 2
-epsilon = 0.001
+epsilon = 0.1
 
 x, num_iterations = half_method(a, b, epsilon)
 f_x = f(x)
